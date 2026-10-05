@@ -1,0 +1,119 @@
+[2026-10-04 21:37:06.943] [main] [QUIZ] Quiz START: User 'student1' (ID: 1) started quiz 'Test Scoring Quiz' (ID: 4) with 3 questions.
+[2026-10-04 21:37:06.969] [main] [QUIZ] Quiz SUBMIT: User 'student1' completed Quiz 'Test Scoring Quiz'. Score: 8.00/30.00 (26.67%), Correct: 1, Incorrect: 1, Unanswered: 1, Time: 0s, Status: COMPLETED
+[2026-10-04 21:37:07.046] [main] [QUIZ] Quiz START: User 'student1' (ID: 1) started quiz 'Test Scoring Quiz' (ID: 4) with 3 questions.
+[2026-10-04 21:37:07.054] [main] [QUIZ] Quiz SUBMIT: User 'student1' completed Quiz 'Test Scoring Quiz'. Score: 30.00/30.00 (100.00%), Correct: 3, Incorrect: 0, Unanswered: 0, Time: 0s, Status: COMPLETED
+[2026-10-04 21:37:45.423] [Test-Server-Thread] [INFO] ==================================================
+[2026-10-04 21:37:45.431] [Test-Server-Thread] [INFO]  Online Quiz Server started on port: 8990
+[2026-10-04 21:37:45.432] [Test-Server-Thread] [INFO]  Thread Pool: Fixed (50 workers)
+[2026-10-04 21:37:45.432] [Test-Server-Thread] [INFO]  Database: SQLite (data/quiz.db)
+[2026-10-04 21:37:45.433] [Test-Server-Thread] [INFO]  Ready to accept client socket connections...
+[2026-10-04 21:37:45.434] [Test-Server-Thread] [INFO] ==================================================
+[2026-10-04 21:37:46.446] [pool-2-thread-1] [INFO] Client connected from: /127.0.0.1:59038
+[2026-10-04 21:37:46.518] [pool-2-thread-1] [AUTH] Login SUCCESS for user: 'student1' (Role: STUDENT)
+[2026-10-04 21:37:46.551] [pool-2-thread-1] [QUIZ] Quiz START: User 'student1' (ID: 2) started quiz 'Java Programming Mastery' (ID: 1) with 5 questions.
+[2026-10-04 21:39:11.132] [Test-Server-Thread] [INFO] ==================================================
+[2026-10-04 21:39:11.139] [Test-Server-Thread] [INFO]  Online Quiz Server started on port: 8990
+[2026-10-04 21:39:11.140] [Test-Server-Thread] [INFO]  Thread Pool: Fixed (50 workers)
+[2026-10-04 21:39:11.141] [Test-Server-Thread] [INFO]  Database: SQLite (data/quiz.db)
+[2026-10-04 21:39:11.141] [Test-Server-Thread] [INFO]  Ready to accept client socket connections...
+[2026-10-04 21:39:11.142] [Test-Server-Thread] [INFO] ==================================================
+[2026-10-04 21:39:12.178] [pool-2-thread-1] [INFO] Client connected from: /127.0.0.1:50712
+[2026-10-04 21:39:12.262] [pool-2-thread-1] [AUTH] Login SUCCESS for user: 'student1' (Role: STUDENT)
+[2026-10-04 21:39:12.293] [pool-2-thread-1] [QUIZ] Quiz START: User 'student1' (ID: 2) started quiz 'Java Programming Mastery' (ID: 1) with 5 questions.
+[2026-10-04 21:39:12.358] [pool-2-thread-1] [QUIZ] Quiz SUBMIT: User 'student1' completed Quiz 'Java Programming Mastery'. Score: 1.00/25.00 (4.00%), Correct: 1, Incorrect: 4, Unanswered: 0, Time: 0s, Status: COMPLETED
+[2026-10-04 21:39:12.399] [pool-2-thread-1] [AUTH] User logged out: student1
+[2026-10-04 21:39:12.404] [pool-2-thread-1] [INFO] Client disconnected: /127.0.0.1:50712
+[2026-10-04 21:39:12.413] [pool-2-thread-2] [INFO] Client connected from: /127.0.0.1:50713
+[2026-10-04 21:39:12.427] [pool-2-thread-2] [AUTH] Login SUCCESS for user: 'student1' (Role: STUDENT)
+[2026-10-04 21:39:12.441] [pool-2-thread-2] [QUIZ] Quiz START: User 'student1' (ID: 2) started quiz 'Computer Networks & TCP/IP' (ID: 2) with 5 questions.
+[2026-10-04 21:39:12.445] [pool-2-thread-2] [AUTH] User logged out: student1
+[2026-10-04 21:39:12.446] [pool-2-thread-2] [INFO] Client disconnected: /127.0.0.1:50713
+[2026-10-04 21:39:12.448] [pool-2-thread-3] [INFO] Client connected from: /127.0.0.1:50714
+[2026-10-04 21:39:12.459] [pool-2-thread-3] [AUTH] Login SUCCESS for user: 'admin' (Role: ADMIN)
+[2026-10-04 21:39:12.462] [pool-2-thread-3] [AUTH] User logged out: admin
+[2026-10-04 21:39:12.463] [pool-2-thread-3] [INFO] Client disconnected: /127.0.0.1:50714
+[2026-10-04 21:39:12.469] [pool-2-thread-4] [INFO] Client connected from: /127.0.0.1:50715
+[2026-10-04 21:39:12.477] [pool-2-thread-4] [AUTH] Login SUCCESS for user: 'admin' (Role: ADMIN)
+[2026-10-04 21:39:12.521] [pool-2-thread-4] [ADMIN] Admin created new Quiz: 'Cybersecurity Fundamentals' (ID: 4)
+[2026-10-04 21:39:12.555] [pool-2-thread-4] [ADMIN] Admin added Question ID: 16 to Quiz ID: 4
+[2026-10-04 21:39:12.608] [pool-2-thread-5] [INFO] Client connected from: /127.0.0.1:50716
+[2026-10-04 21:39:12.609] [pool-2-thread-7] [INFO] Client connected from: /127.0.0.1:50718
+[2026-10-04 21:39:12.608] [pool-2-thread-6] [INFO] Client connected from: /127.0.0.1:50717
+[2026-10-04 21:39:12.618] [pool-2-thread-7] [AUTH] Login SUCCESS for user: 'student1' (Role: STUDENT)
+[2026-10-04 21:39:12.627] [pool-2-thread-7] [QUIZ] Quiz START: User 'student1' (ID: 2) started quiz 'Java Programming Mastery' (ID: 1) with 5 questions.
+[2026-10-04 21:39:12.632] [pool-2-thread-6] [AUTH] Login SUCCESS for user: 'student2' (Role: STUDENT)
+[2026-10-04 21:39:12.635] [pool-2-thread-5] [AUTH] Login SUCCESS for user: 'student1' (Role: STUDENT)
+[2026-10-04 21:39:12.648] [pool-2-thread-6] [QUIZ] Quiz START: User 'student2' (ID: 3) started quiz 'Java Programming Mastery' (ID: 1) with 5 questions.
+[2026-10-04 21:39:12.675] [pool-2-thread-5] [QUIZ] Quiz START: User 'student1' (ID: 2) started quiz 'Java Programming Mastery' (ID: 1) with 5 questions.
+[2026-10-04 21:39:12.680] [pool-2-thread-7] [ERROR] Quiz submission error: Invalid or expired quiz session. - Invalid or expired quiz session.
+[2026-10-04 21:39:12.689] [pool-2-thread-6] [QUIZ] Quiz SUBMIT: User 'student2' completed Quiz 'Java Programming Mastery'. Score: -5.00/25.00 (0.00%), Correct: 0, Incorrect: 5, Unanswered: 0, Time: 0s, Status: COMPLETED
+[2026-10-04 21:39:12.693] [pool-2-thread-6] [AUTH] User logged out: student2
+[2026-10-04 21:39:12.694] [pool-2-thread-6] [INFO] Client disconnected: /127.0.0.1:50717
+[2026-10-04 21:39:12.699] [pool-2-thread-5] [QUIZ] Quiz SUBMIT: User 'student1' completed Quiz 'Java Programming Mastery'. Score: 7.00/25.00 (28.00%), Correct: 2, Incorrect: 3, Unanswered: 0, Time: 0s, Status: COMPLETED
+[2026-10-04 21:39:12.702] [pool-2-thread-5] [AUTH] User logged out: student1
+[2026-10-04 21:39:12.705] [pool-2-thread-5] [INFO] Client disconnected: /127.0.0.1:50716
+[2026-10-04 21:39:12.714] [main] [INFO] Shutting down Quiz Server gracefully...
+[2026-10-04 21:39:12.716] [Test-Server-Thread] [INFO] Server socket closed during shutdown.
+[2026-10-04 21:39:15.727] [main] [INFO] Quiz Server stopped successfully.
+[2026-10-04 21:39:15.969] [main] [QUIZ] Quiz START: User 'student1' (ID: 1) started quiz 'Test Scoring Quiz' (ID: 4) with 3 questions.
+[2026-10-04 21:39:15.990] [main] [QUIZ] Quiz SUBMIT: User 'student1' completed Quiz 'Test Scoring Quiz'. Score: 8.00/30.00 (26.67%), Correct: 1, Incorrect: 1, Unanswered: 1, Time: 0s, Status: COMPLETED
+[2026-10-04 21:39:16.162] [main] [QUIZ] Quiz START: User 'student1' (ID: 1) started quiz 'Test Scoring Quiz' (ID: 4) with 3 questions.
+[2026-10-04 21:39:16.182] [main] [QUIZ] Quiz SUBMIT: User 'student1' completed Quiz 'Test Scoring Quiz'. Score: 30.00/30.00 (100.00%), Correct: 3, Incorrect: 0, Unanswered: 0, Time: 0s, Status: COMPLETED
+[2026-10-04 22:08:10.403] [Test-Server-Thread] [INFO] ==================================================
+[2026-10-04 22:08:10.407] [Test-Server-Thread] [INFO]  Online Quiz Server started on port: 8990
+[2026-10-04 22:08:10.407] [Test-Server-Thread] [INFO]  Thread Pool: Fixed (50 workers)
+[2026-10-04 22:08:10.408] [Test-Server-Thread] [INFO]  Database: SQLite (data/quiz.db)
+[2026-10-04 22:08:10.408] [Test-Server-Thread] [INFO]  Ready to accept client socket connections...
+[2026-10-04 22:08:10.408] [Test-Server-Thread] [INFO] ==================================================
+[2026-10-04 22:08:11.404] [pool-2-thread-1] [INFO] Client connected from: /127.0.0.1:62683
+[2026-10-04 22:08:11.440] [pool-2-thread-1] [AUTH] Login SUCCESS for user: 'student1' (Role: STUDENT)
+[2026-10-04 22:08:11.458] [pool-2-thread-1] [QUIZ] Quiz START: User 'student1' (ID: 2) started quiz 'Java Programming Mastery' (ID: 1) with 5 questions.
+[2026-10-04 22:08:11.512] [pool-2-thread-1] [QUIZ] Quiz SUBMIT: User 'student1' completed Quiz 'Java Programming Mastery'. Score: 19.00/25.00 (76.00%), Correct: 4, Incorrect: 1, Unanswered: 0, Time: 0s, Status: COMPLETED
+[2026-10-04 22:08:11.523] [pool-2-thread-1] [AUTH] User logged out: student1
+[2026-10-04 22:08:11.525] [pool-2-thread-1] [INFO] Client disconnected: /127.0.0.1:62683
+[2026-10-04 22:08:11.527] [pool-2-thread-2] [INFO] Client connected from: /127.0.0.1:62684
+[2026-10-04 22:08:11.530] [pool-2-thread-2] [AUTH] Login SUCCESS for user: 'student1' (Role: STUDENT)
+[2026-10-04 22:08:11.535] [pool-2-thread-2] [QUIZ] Quiz START: User 'student1' (ID: 2) started quiz 'Computer Networks & TCP/IP' (ID: 2) with 5 questions.
+[2026-10-04 22:08:11.537] [pool-2-thread-2] [AUTH] User logged out: student1
+[2026-10-04 22:08:11.538] [pool-2-thread-2] [INFO] Client disconnected: /127.0.0.1:62684
+[2026-10-04 22:08:11.539] [pool-2-thread-3] [INFO] Client connected from: /127.0.0.1:62685
+[2026-10-04 22:08:11.542] [pool-2-thread-3] [AUTH] Login SUCCESS for user: 'admin' (Role: ADMIN)
+[2026-10-04 22:08:11.543] [pool-2-thread-3] [AUTH] User logged out: admin
+[2026-10-04 22:08:11.543] [pool-2-thread-3] [INFO] Client disconnected: /127.0.0.1:62685
+[2026-10-04 22:08:11.546] [pool-2-thread-4] [INFO] Client connected from: /127.0.0.1:62686
+[2026-10-04 22:08:11.549] [pool-2-thread-4] [AUTH] Login SUCCESS for user: 'admin' (Role: ADMIN)
+[2026-10-04 22:08:11.559] [pool-2-thread-4] [ADMIN] Admin created new Quiz: 'Cybersecurity Fundamentals' (ID: 4)
+[2026-10-04 22:08:11.569] [pool-2-thread-4] [ADMIN] Admin added Question ID: 16 to Quiz ID: 4
+[2026-10-04 22:08:11.577] [pool-2-thread-4] [AUTH] User logged out: admin
+[2026-10-04 22:08:11.578] [pool-2-thread-4] [INFO] Client disconnected: /127.0.0.1:62686
+[2026-10-04 22:08:11.581] [pool-2-thread-5] [INFO] Client connected from: /127.0.0.1:62687
+[2026-10-04 22:08:11.582] [pool-2-thread-7] [INFO] Client connected from: /127.0.0.1:62689
+[2026-10-04 22:08:11.582] [pool-2-thread-6] [INFO] Client connected from: /127.0.0.1:62688
+[2026-10-04 22:08:11.585] [pool-2-thread-7] [AUTH] Login SUCCESS for user: 'student3' (Role: STUDENT)
+[2026-10-04 22:08:11.586] [pool-2-thread-5] [AUTH] Login SUCCESS for user: 'student1' (Role: STUDENT)
+[2026-10-04 22:08:11.589] [pool-2-thread-7] [QUIZ] Quiz START: User 'student3' (ID: 4) started quiz 'Java Programming Mastery' (ID: 1) with 5 questions.
+[2026-10-04 22:08:11.589] [pool-2-thread-5] [QUIZ] Quiz START: User 'student1' (ID: 2) started quiz 'Java Programming Mastery' (ID: 1) with 5 questions.
+[2026-10-04 22:08:11.598] [pool-2-thread-6] [AUTH] Login SUCCESS for user: 'student2' (Role: STUDENT)
+[2026-10-04 22:08:11.604] [pool-2-thread-6] [QUIZ] Quiz START: User 'student2' (ID: 3) started quiz 'Java Programming Mastery' (ID: 1) with 5 questions.
+[2026-10-04 22:08:11.612] [pool-2-thread-5] [QUIZ] Quiz SUBMIT: User 'student1' completed Quiz 'Java Programming Mastery'. Score: 7.00/25.00 (28.00%), Correct: 2, Incorrect: 3, Unanswered: 0, Time: 0s, Status: COMPLETED
+[2026-10-04 22:08:11.613] [pool-2-thread-5] [AUTH] User logged out: student1
+[2026-10-04 22:08:11.614] [pool-2-thread-5] [INFO] Client disconnected: /127.0.0.1:62687
+[2026-10-04 22:08:11.615] [pool-2-thread-6] [QUIZ] Quiz SUBMIT: User 'student2' completed Quiz 'Java Programming Mastery'. Score: 1.00/25.00 (4.00%), Correct: 1, Incorrect: 4, Unanswered: 0, Time: 0s, Status: COMPLETED
+[2026-10-04 22:08:11.617] [pool-2-thread-6] [AUTH] User logged out: student2
+[2026-10-04 22:08:11.618] [pool-2-thread-6] [INFO] Client disconnected: /127.0.0.1:62688
+[2026-10-04 22:08:11.633] [pool-2-thread-7] [QUIZ] Quiz SUBMIT: User 'student3' completed Quiz 'Java Programming Mastery'. Score: 1.00/25.00 (4.00%), Correct: 1, Incorrect: 4, Unanswered: 0, Time: 0s, Status: COMPLETED
+[2026-10-04 22:08:11.635] [pool-2-thread-7] [AUTH] User logged out: student3
+[2026-10-04 22:08:11.636] [pool-2-thread-7] [INFO] Client disconnected: /127.0.0.1:62689
+[2026-10-04 22:08:11.638] [main] [INFO] Shutting down Quiz Server gracefully...
+[2026-10-04 22:08:11.639] [main] [INFO] Quiz Server stopped successfully.
+[2026-10-04 22:08:11.639] [Test-Server-Thread] [INFO] Server socket closed during shutdown.
+[2026-10-04 22:08:11.715] [main] [QUIZ] Quiz START: User 'student1' (ID: 1) started quiz 'Test Scoring Quiz' (ID: 4) with 3 questions.
+[2026-10-04 22:08:11.720] [main] [QUIZ] Quiz SUBMIT: User 'student1' completed Quiz 'Test Scoring Quiz'. Score: 8.00/30.00 (26.67%), Correct: 1, Incorrect: 1, Unanswered: 1, Time: 0s, Status: COMPLETED
+[2026-10-04 22:08:11.778] [main] [QUIZ] Quiz START: User 'student1' (ID: 1) started quiz 'Test Scoring Quiz' (ID: 4) with 3 questions.
+[2026-10-04 22:08:11.785] [main] [QUIZ] Quiz SUBMIT: User 'student1' completed Quiz 'Test Scoring Quiz'. Score: 30.00/30.00 (100.00%), Correct: 3, Incorrect: 0, Unanswered: 0, Time: 0s, Status: COMPLETED
+[2026-10-04 23:40:56.957] [Test-Server-Thread] [INFO] ==================================================
+[2026-10-04 23:40:56.962] [Test-Server-Thread] [INFO]  Online Quiz Server started on port: 8990
+[2026-10-04 23:40:56.963] [Test-Server-Thread] [INFO]  Thread Pool: Fixed (50 workers)
+[2026-10-04 23:40:56.963] [Test-Server-Thread] [INFO]  Database: SQLite (data/quiz.db)
+[2026-10-04 23:40:56.964] [Test-Server-Thread] [INFO]  Ready to accept client socket connections...
+[2026-10-04 23:40:56.964] [Test-Server-Thread] [INFO] ==================================================

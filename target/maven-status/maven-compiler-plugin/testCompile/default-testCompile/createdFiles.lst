@@ -1,0 +1,7 @@
+com\quiz\AuthTest.class
+com\quiz\RepositoryTest.class
+com\quiz\QuizScoringTest.class
+com\quiz\ProtocolTest.class
+com\quiz\SessionManagerTest.class
+com\quiz\QuestionValidationTest.class
+com\quiz\IntegrationNetworkTest.class
